@@ -24,6 +24,12 @@ setMsg(): 채팅 메시지를 생성하는 POST 요청을 처리합니다. 요�
 main() 메서드에서 SpringApplication.run()을 호출하여 애플리케이션을 실행합니다</br>
 </br>
 
+## JavaScript
+
+> 사용자가 입력한 아이디와 채팅방 번호를 바탕으로 실시간으로 채팅 메시지를 주고받을 수 있습니다. getSendMsgBox와 getReceiveMsgBox 함수는 메시지의 생성 날짜와 시간을 포함한 HTML 요소를 반환합니다. 
+initMyMessage와 initYourMessage 함수는 송신 및 수신 메시지를 화면에 추가하고 스크롤을 아래로 이동시킵니다. addMessage 함수는 입력된 메시지를 서버로 전송합니다.
+
+
 ## 실행 화면
 ![녹화_2023_07_17_00_34_03_91 (1)](https://github.com/kangjungmook/springboot_webflux_mongo_chatapp/assets/106642094/4985ff5c-f1d8-4cc9-8a8a-538e33d1be80)
 
