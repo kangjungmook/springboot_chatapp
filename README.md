@@ -24,6 +24,11 @@ setMsg(): 채팅 메시지를 생성하는 POST 요청을 처리합니다. 요�
 main() 메서드에서 SpringApplication.run()을 호출하여 애플리케이션을 실행합니다</br>
 </br>
 
+## HTML
+
+Bootstrap 및 FontAwesome 라이브러리를 사용
+
+
 ## JavaScript
 
 > 사용자가 입력한 아이디와 채팅방 번호를 바탕으로 실시간으로 채팅 메시지를 주고받을 수 있습니다. getSendMsgBox와 getReceiveMsgBox 함수는 메시지의 생성 날짜와 시간을 포함한 HTML 요소를 반환합니다. 
