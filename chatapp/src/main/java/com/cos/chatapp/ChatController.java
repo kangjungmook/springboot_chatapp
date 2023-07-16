@@ -19,6 +19,7 @@ import reactor.core.scheduler.Schedulers;
 @RestController // 데이터 리턴 서버
 public class ChatController {
 
+	@Autoweird
 	private final ChatRepository chatRepository;
 	
 	@CrossOrigin
