@@ -26,7 +26,7 @@ main() 메서드에서 SpringApplication.run()을 호출하여 애플리케이�
 
 ## HTML
 
-Bootstrap 및 FontAwesome 라이브러리를 사용
+> Bootstrap 및 FontAwesome 라이브러리를 사용
 
 
 ## JavaScript
