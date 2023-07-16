@@ -6,7 +6,7 @@
 id, msg, sender, receiver, roomNum, createdAt 등의 필드로 구성됩니다.</br>
 MongoDB의 "chat" 컬렉션과 매핑되는 @Document 어노테이션이 지정되어 있습니다.</br>
 Lombok의 @Data 어노테이션을 사용하여 Getter, Setter, Equals, toString 등의 메서드를 자동으로 생성합니다.</br>
-</br>
+
 
 ## ChatController 클래스
 
@@ -22,7 +22,7 @@ setMsg(): 채팅 메시지를 생성하는 POST 요청을 처리합니다. 요�
 > Spring Boot 애플리케이션의 진입점을 정의합니다.</br>
 @SpringBootApplication 어노테이션이 지정되어 있어 Spring Boot 애플리케이션의 설정과 구성을 자동으로 처리합니다.</br>
 main() 메서드에서 SpringApplication.run()을 호출하여 애플리케이션을 실행합니다</br>
-</br>
+
 
 ## HTML
 
